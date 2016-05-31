@@ -1,0 +1,14 @@
+{
+  "buildPath": "C:\\Users\\Zhang\\Documents\\cocos\\Project1\\build",
+  "debug": false,
+  "keystoreAlias": "",
+  "keystoreAliasPassword": "",
+  "keystorePassword": "",
+  "keystorePath": "",
+  "platform": "web-desktop",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "sourceMaps": false,
+  "template": "binary",
+  "useDebugKeystore": true
+}
