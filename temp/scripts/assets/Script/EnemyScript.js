@@ -48,7 +48,7 @@ cc.Class({
         }*/
         this.count++;
         if (this.count >= this.petrolcooldown) {
-            this.rand = Math.floor(Math.random() * 10 + 1);
+            this.rand = Math.floor(Math.random() * (24 + 1));
             this.count = 0;
         }
         switch (this.rand) {
@@ -66,34 +66,34 @@ cc.Class({
                 break;
             case 5:
                 this.node.x -= this.speed * 0.8;
-                this.node.y += this.speed * 0.5;
+                this.node.y += this.speed * 0.6;
                 break;
             case 6:
-                this.node.x -= this.speed * 0.5;
+                this.node.x -= this.speed * 0.6;
                 this.node.y += this.speed * 0.8;
                 break;
             case 7:
-                this.node.x += this.speed * 0.5;
+                this.node.x += this.speed * 0.6;
                 this.node.y += this.speed * 0.8;
                 break;
             case 8:
-                this.node.x -= this.speed * 0.5;
+                this.node.x -= this.speed * 0.6;
                 this.node.y -= this.speed * 0.8;
                 break;
             case 9:
                 this.node.x -= this.speed * 0.8;
-                this.node.y -= this.speed * 0.5;
+                this.node.y -= this.speed * 0.6;
                 break;
             case 10:
                 this.node.x += this.speed * 0.8;
-                this.node.y += this.speed * 0.5;
+                this.node.y += this.speed * 0.6;
                 break;
             case 11:
                 this.node.x += this.speed * 0.8;
-                this.node.y -= this.speed * 0.5;
+                this.node.y -= this.speed * 0.6;
                 break;
             case 12:
-                this.node.x += this.speed * 0.5;
+                this.node.x += this.speed * 0.6;
                 this.node.y -= this.speed * 0.8;
                 break;
         }

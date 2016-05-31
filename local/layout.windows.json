@@ -3,8 +3,8 @@
     "main": {
       "x": -8,
       "y": -8,
-      "width": 1456,
-      "height": 876,
+      "width": 1936,
+      "height": 1056,
       "layout": {
         "docks": [
           {
@@ -75,17 +75,11 @@
         "type": "dock"
       }
     },
-    "editor-window-1464703110169": {
-      "x": -8,
-      "y": -8,
+    "editor-window-1464704388415": {
+      "x": 340,
+      "y": 92,
       "width": 1456,
-      "height": 912
-    },
-    "worker": {
-      "x": 520,
-      "y": 280,
-      "width": 400,
-      "height": 300
+      "height": 916
     }
   }
 }

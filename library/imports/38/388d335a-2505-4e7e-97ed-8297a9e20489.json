@@ -213,8 +213,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 252,
-      "y": 85
+      "x": -46,
+      "y": -109
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -272,8 +272,9 @@
     "sightDetectRaidus": 80,
     "hearingDetectRadius": 40,
     "petrolcooldown": 5,
-    "speed": 20,
-    "count": 0
+    "speed": 5,
+    "count": 0,
+    "rand": 0
   },
   {
     "__type__": "cc.Canvas",
