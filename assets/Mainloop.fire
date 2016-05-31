@@ -272,7 +272,7 @@
     "sightDetectRaidus": 80,
     "hearingDetectRadius": 40,
     "petrolcooldown": 5,
-    "speed": 4,
+    "speed": 20,
     "count": 0
   },
   {

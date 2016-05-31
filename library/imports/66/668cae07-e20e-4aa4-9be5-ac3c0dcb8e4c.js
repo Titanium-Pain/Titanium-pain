@@ -15,8 +15,8 @@ cc.Class({
         hearingDetectRadius: 40,
         petrolcooldown: 1,
         speed: 0,
-        count: 0
-
+        count: 0,
+        rand: 0
     },
 
     // use this for initialization
@@ -44,22 +44,22 @@ cc.Class({
         }*/
         this.count++;
         if (this.count >= this.petrolcooldown) {
-            var rand = Math.floor(Math.random() * (3 + 1));
-            switch (rand) {
-                case 0:
-                    this.node.x += this.speed;
-                    break;
-                case 1:
-                    this.node.x -= this.speed;
-                    break;
-                case 2:
-                    this.node.y += this.speed;
-                    break;
-                case 3:
-                    this.node.y -= this.speed;
-                    break;
-            }
+            this.rand = Math.floor(Math.random() * 4 + 1);
             this.count = 0;
+        }
+        switch (this.rand) {
+            case 1:
+                this.node.x += this.speed;
+                break;
+            case 2:
+                this.node.x -= this.speed;
+                break;
+            case 3:
+                this.node.y += this.speed;
+                break;
+            case 4:
+                this.node.y -= this.speed;
+                break;
         }
     }
 });
