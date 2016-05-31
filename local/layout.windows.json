@@ -75,17 +75,11 @@
         "type": "dock"
       }
     },
-    "editor-window-1464706036842": {
+    "editor-window-1464707675704": {
       "x": 340,
       "y": 92,
       "width": 1456,
       "height": 996
-    },
-    "worker": {
-      "x": 760,
-      "y": 370,
-      "width": 400,
-      "height": 300
     }
   }
 }
