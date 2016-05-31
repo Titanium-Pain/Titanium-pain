@@ -2,7 +2,7 @@
   "__type__": "cc.AnimationClip",
   "_name": "1",
   "_objFlags": 0,
-  "_duration": 0.5,
+  "_duration": 2.966666666666667,
   "sample": 30,
   "speed": 1,
   "wrapMode": 1,
@@ -12,12 +12,12 @@
         {
           "frame": 0,
           "value": [
-            -800,
-            0
+            0,
+            800
           ]
         },
         {
-          "frame": 0.5,
+          "frame": 0.9666666666666667,
           "value": [
             0,
             0
@@ -33,7 +33,7 @@
   },
   "events": [
     {
-      "frame": 0.5,
+      "frame": 2.966666666666667,
       "func": "onOpFinish",
       "params": []
     }

@@ -45,7 +45,7 @@
                 "width": 703
               },
               {
-                "active": 0,
+                "active": 1,
                 "height": 231,
                 "panels": [
                   "console.panel",
@@ -74,12 +74,6 @@
         "row": true,
         "type": "dock"
       }
-    },
-    "editor-window-1464662511443": {
-      "x": 480,
-      "y": 23,
-      "width": 800,
-      "height": 719
     }
   }
 }
