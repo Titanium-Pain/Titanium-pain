@@ -18,7 +18,6 @@ cc.Class({
         sightDetectRaidus: 80,
         hearingDetectRadius: 40,
         petrolcooldown: 1,
-        ispetrol: 1,
         speed: 0,
         count: 0
     },
@@ -38,9 +37,23 @@ cc.Class({
     // called every frame, uncomment this function to activate update callback
     update: function update(dt) {
 
+        /*var rand=Math.floor(Math.random()*(3+1));
+        switch(rand){
+            case 0:
+                this.node.x+=this.speed;
+                break;
+            case 1:
+                this.node.x-=this.speed;
+                break;
+            case 2:
+                this.node.y+=this.speed;
+                break;
+            case 3:
+                this.node.y-=this.speed;
+                break;
+        }*/
         this.count++;
         if (this.count >= this.petrolcooldown) {
-<<<<<<< HEAD
             var rand = Math.floor(Math.random() * (24 + 1));
             switch (rand) {
                 case 1:
@@ -134,31 +147,6 @@ cc.Class({
             }
             this.count = 0;
         }
-=======
-            if (this.ispetrol) {
-                this.rand = Math.floor(Math.random() * 4 + 1);
-                this.ispetrol = 0;
-            } else {
-                this.rand = 0;
-                this.ispetrol = 1;
-            }
-            this.count = 0;
-        }
-        switch (this.rand) {
-            case 1:
-                this.node.x += this.speed;
-                break;
-            case 2:
-                this.node.x -= this.speed;
-                break;
-            case 3:
-                this.node.y += this.speed;
-                break;
-            case 4:
-                this.node.y -= this.speed;
-                break;
-        }
->>>>>>> origin/master
     }
 });
 
