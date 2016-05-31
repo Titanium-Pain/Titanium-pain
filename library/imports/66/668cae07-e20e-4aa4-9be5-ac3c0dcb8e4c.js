@@ -14,6 +14,7 @@ cc.Class({
         sightDetectRaidus: 80,
         hearingDetectRadius: 40,
         petrolcooldown: 1,
+        ispetrol: 1,
         speed: 0,
         count: 0,
         rand: 0
@@ -27,24 +28,15 @@ cc.Class({
     // called every frame, uncomment this function to activate update callback
     update: function update(dt) {
 
-        /*var rand=Math.floor(Math.random()*(3+1));
-        switch(rand){
-            case 0:
-                this.node.x+=this.speed;
-                break;
-            case 1:
-                this.node.x-=this.speed;
-                break;
-            case 2:
-                this.node.y+=this.speed;
-                break;
-            case 3:
-                this.node.y-=this.speed;
-                break;
-        }*/
         this.count++;
         if (this.count >= this.petrolcooldown) {
-            this.rand = Math.floor(Math.random() * (24 + 1));
+            if (this.ispetrol) {
+                this.rand = Math.floor(Math.random() * 4 + 1);
+                this.ispetrol = 0;
+            } else {
+                this.rand = 0;
+                this.ispetrol = 1;
+            }
             this.count = 0;
         }
         switch (this.rand) {
@@ -59,38 +51,6 @@ cc.Class({
                 break;
             case 4:
                 this.node.y -= this.speed;
-                break;
-            case 5:
-                this.node.x -= this.speed * 0.8;
-                this.node.y += this.speed * 0.6;
-                break;
-            case 6:
-                this.node.x -= this.speed * 0.6;
-                this.node.y += this.speed * 0.8;
-                break;
-            case 7:
-                this.node.x += this.speed * 0.6;
-                this.node.y += this.speed * 0.8;
-                break;
-            case 8:
-                this.node.x -= this.speed * 0.6;
-                this.node.y -= this.speed * 0.8;
-                break;
-            case 9:
-                this.node.x -= this.speed * 0.8;
-                this.node.y -= this.speed * 0.6;
-                break;
-            case 10:
-                this.node.x += this.speed * 0.8;
-                this.node.y += this.speed * 0.6;
-                break;
-            case 11:
-                this.node.x += this.speed * 0.8;
-                this.node.y -= this.speed * 0.6;
-                break;
-            case 12:
-                this.node.x += this.speed * 0.6;
-                this.node.y -= this.speed * 0.8;
                 break;
         }
     }
