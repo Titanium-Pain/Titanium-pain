@@ -270,7 +270,10 @@
     },
     "_enabled": true,
     "sightDetectRaidus": 80,
-    "hearingDetectRadius": 40
+    "hearingDetectRadius": 40,
+    "petrolcooldown": 5,
+    "speed": 4,
+    "count": 0
   },
   {
     "__type__": "cc.Canvas",

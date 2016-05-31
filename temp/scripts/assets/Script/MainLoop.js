@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, 'c20f4tSvydGS5qRzvn5G9z9', 'MainLoop');
-// Script/MainLoop.js
+// Script\MainLoop.js
 
 cc.Class({
     "extends": cc.Component,
