@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,MAAM,CAAC,MAAM,GAAC;AACV,aAAS,EAAC,CAAC;CACd,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "window.Global={\n    diffculty:0,\n};"
+  ]
+}

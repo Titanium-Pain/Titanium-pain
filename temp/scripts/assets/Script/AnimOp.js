@@ -25,7 +25,7 @@ cc.Class({
 
     // called every frame, uncomment this function to activate update callback
     onOpFinish: function onOpFinish() {
-        cc.director.loadScene('Title');
+        cc.director.loadScene('op2');
     }
 });
 

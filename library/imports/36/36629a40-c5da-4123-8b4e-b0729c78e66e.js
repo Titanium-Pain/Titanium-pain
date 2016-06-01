@@ -21,7 +21,7 @@ cc.Class({
             onKeyPressed: function onKeyPressed(keyCode, event) {
                 switch (keyCode) {
                     case cc.KEY.s:
-                        cc.director.loadScene('Mainloop');
+                        cc.director.loadScene('ChooseDiffculty');
                         break;
                     case cc.KEY.l:
                         break;
@@ -30,9 +30,8 @@ cc.Class({
         }, self.node);
     },
 
-    StartGame: function StartGame() {
-        cc.director.loadScene('Mainloop');
-    }
+    StartGame: function StartGame() {}
+    //cc.director.loadScene('Mainloop');
 
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {

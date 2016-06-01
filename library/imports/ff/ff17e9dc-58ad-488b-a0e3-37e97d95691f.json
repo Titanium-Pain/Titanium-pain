@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LV-HIT",
+    "texture": "b330d366-2908-4397-9aa3-a27091dda6f6",
+    "atlas": "",
+    "rect": [
+      281,
+      332,
+      491,
+      279
+    ],
+    "offset": [
+      26.5,
+      28.5
+    ],
+    "originalSize": [
+      1000,
+      1000
+    ]
+  }
+}

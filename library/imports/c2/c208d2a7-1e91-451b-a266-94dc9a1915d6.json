@@ -101,10 +101,11 @@
       "__id__": 1
     },
     "_enabled": true,
-    "DetectRadius": 100,
+    "DetectRadius": 125,
     "petrolcooldown": 5,
     "speed": 5,
-    "count": 0
+    "count": 0,
+    "detected": false
   },
   {
     "__type__": "cc.CircleCollider",
@@ -127,7 +128,9 @@
     "root": {
       "__id__": 1
     },
-    "asset": null,
-    "fileId": "5a23d8wJvJKWrWY7jelQDtA"
+    "asset": {
+      "__uuid__": "c208d2a7-1e91-451b-a266-94dc9a1915d6"
+    },
+    "fileId": "9966cWzFZ9MOpjy/H4nA53N"
   }
 ]

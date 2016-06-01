@@ -12,27 +12,27 @@
             "docks": [
               {
                 "active": 0,
-                "height": 463,
+                "height": 426,
                 "panels": [
                   "hierarchy"
                 ],
                 "type": "panel",
-                "width": 305
+                "width": 323
               },
               {
                 "active": 0,
-                "height": 462,
+                "height": 504,
                 "panels": [
                   "assets"
                 ],
                 "type": "panel",
-                "width": 305
+                "width": 323
               }
             ],
-            "height": 928,
+            "height": 933,
             "row": false,
             "type": "dock",
-            "width": 305
+            "width": 323
           },
           {
             "docks": [
@@ -40,47 +40,47 @@
                 "docks": [
                   {
                     "active": 0,
-                    "height": 725,
+                    "height": 729,
                     "panels": [
                       "scene"
                     ],
                     "type": "panel",
-                    "width": 927
+                    "width": 910
                   },
                   {
                     "active": 0,
-                    "height": 725,
+                    "height": 729,
                     "panels": [
                       "node-library"
                     ],
                     "type": "panel",
-                    "width": 216
+                    "width": 215
                   }
                 ],
-                "height": 725,
+                "height": 729,
                 "row": true,
                 "type": "dock",
-                "width": 1146
+                "width": 1128
               },
               {
                 "active": 0,
-                "height": 200,
+                "height": 201,
                 "panels": [
                   "console",
                   "timeline"
                 ],
                 "type": "panel",
-                "width": 1146
+                "width": 1128
               }
             ],
-            "height": 928,
+            "height": 933,
             "row": false,
             "type": "dock",
-            "width": 1146
+            "width": 1128
           },
           {
             "active": 0,
-            "height": 928,
+            "height": 933,
             "panels": [
               "inspector"
             ],
@@ -92,6 +92,12 @@
         "row": true,
         "type": "dock"
       }
+    },
+    "window-1464798644146": {
+      "x": 458,
+      "y": 46,
+      "width": 1036,
+      "height": 934
     }
   }
 }

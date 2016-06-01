@@ -4,32 +4,44 @@
       false,
       false,
       false,
+      false,
       false
     ],
     [
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false
     ]
   ],
   "group-list": [
     "Default",
     "Enemy",
     "Player",
-    "Bullet"
+    "Bullet",
+    "Detect"
   ],
   "start-scene": "c3a748c9-bc0b-408e-ba16-433547844b0b"
 }

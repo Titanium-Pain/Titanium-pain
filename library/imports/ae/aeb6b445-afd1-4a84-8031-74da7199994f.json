@@ -101,7 +101,7 @@
       "__id__": 1
     },
     "_enabled": true,
-    "speed": 10,
+    "speed": 15,
     "direction": 1,
     "shootingrange": 250
   },

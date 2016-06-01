@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pistol-HIT",
+    "texture": "e5040755-53fd-43e1-85d5-cb94796792f3",
+    "atlas": "",
+    "rect": [
+      132,
+      256,
+      730,
+      484
+    ],
+    "offset": [
+      -3,
+      2
+    ],
+    "originalSize": [
+      1000,
+      1000
+    ]
+  }
+}

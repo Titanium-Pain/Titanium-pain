@@ -146,10 +146,10 @@ cc.Class({
         if (this.checkAtkCooldown()) {
             var newbullet = cc.instantiate(this.bulletPrefab);
             this.node.addChild(newbullet);
+            newbullet.setPosition(0, 0);
             var script = newbullet.getComponent("Bullet");
             script.direction = a;
             script.shootingrange = this.shootingrange;
-            newbullet.setPosition(0, 0);
             this.atkcount = 0;
         }
     },
@@ -194,4 +194,8 @@ cc.Class({
             this.attack(3);
         }
     }
+
 });
+/*onDestroy:function(){
+    cc.director.loadScene('GameOver');
+},*/

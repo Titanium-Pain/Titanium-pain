@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;;;;;;;;;;KAUX;;;AAGD,UAAM,EAAE,kBAAY;AAChB,YAAI,IAAI,GAAG,IAAI,CAAC;AAChB,UAAE,CAAC,YAAY,CAAC,WAAW,CAAC;AACxB,iBAAK,EAAE,EAAE,CAAC,aAAa,CAAC,QAAQ;AAChC,wBAAY,EAAE,sBAAS,OAAO,EAAE,KAAK,EAAE;AACnC,wBAAO,OAAO;AACV,yBAAK,EAAE,CAAC,GAAG,CAAC,CAAC;AACT,0BAAE,CAAC,QAAQ,CAAC,SAAS,CAAC,UAAU,CAAC,CAAC;AAClC,8BAAM;AAAA,iBACb;aACJ;SACJ,EAAE,IAAI,CAAC,IAAI,CAAC,CAAC;KACjB;;CAMJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        var self = this;\r\n        cc.eventManager.addListener({\r\n            event: cc.EventListener.KEYBOARD,\r\n            onKeyPressed: function(keyCode, event) {\r\n                switch(keyCode) {\r\n                    case cc.KEY.r:\r\n                        cc.director.loadScene('Mainloop');\r\n                        break;\r\n                }\r\n            },\r\n        }, self.node);\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3-HIT",
+    "texture": "3668d9eb-9dc5-488a-8096-78902f8c0f0d",
+    "atlas": "",
+    "rect": [
+      415,
+      334,
+      180,
+      288
+    ],
+    "offset": [
+      5,
+      22
+    ],
+    "originalSize": [
+      1000,
+      1000
+    ]
+  }
+}
