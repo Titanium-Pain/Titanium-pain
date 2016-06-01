@@ -23,6 +23,10 @@ cc.Class({
             default:null,
             type:cc.Node,
         },
+        bgm:{
+            default:null,
+            url:cc.AudioClip,
+        },
     },
 
     // use this for initialization
@@ -46,6 +50,7 @@ cc.Class({
                 this.spawnNumber=35;
                 break;
         }
+        cc.audioEngine.playMusic(this.bgm,true);
         //console.log("onLoad "+this.spawnNumber);
     },
     

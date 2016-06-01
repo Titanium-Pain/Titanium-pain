@@ -27,6 +27,10 @@ cc.Class({
         bulletPrefab: {
             "default": null,
             type: cc.Prefab
+        },
+        attacksound: {
+            "default": null,
+            url: cc.AudioClip
         }
     },
 
@@ -152,6 +156,7 @@ cc.Class({
             this.node.addChild(newbullet);
             newbullet.setPosition(0, 0);
             var script = newbullet.getComponent("Bullet");
+            cc.audioEngine.playEffect(this.attacksound, false, 100);
             script.direction = a;
             script.shootingrange = this.shootingrange;
             this.atkcount = 0;
