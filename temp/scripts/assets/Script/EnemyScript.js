@@ -15,8 +15,7 @@ cc.Class({
         //    readonly: false,    // optional, default is false
         // },
         // ...
-        sightDetectRaidus: 80,
-        hearingDetectRadius: 40,
+        DetectRadius: 100,
         petrolcooldown: 1,
         speed: 0,
         count: 0
@@ -33,6 +32,11 @@ cc.Class({
             return true;
         }
         return false;
+    },
+
+    onCollisionEnter: function onCollisionEnter(other, self) {
+        other.node.destroy();
+        self.node.destroy();
     },
 
     // called every frame, uncomment this function to activate update callback

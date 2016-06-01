@@ -11,8 +11,7 @@ cc.Class({
         //    readonly: false,    // optional, default is false
         // },
         // ...
-        sightDetectRaidus:80,
-        hearingDetectRadius:40,
+        DetectRadius:100,
         petrolcooldown:1,
         speed:0,
         count:0,
@@ -22,6 +21,7 @@ cc.Class({
     // use this for initialization
     onLoad: function () {
         this.count=0;
+        
     },
     
     outOfTheWall: function(){
@@ -30,6 +30,11 @@ cc.Class({
         }
         return false;
     },
+    
+    onCollisionEnter: function (other, self) {
+        other.node.destroy();
+        self.node.destroy();
+},
 
     // called every frame, uncomment this function to activate update callback
     update: function (dt) {

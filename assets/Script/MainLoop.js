@@ -15,7 +15,8 @@ cc.Class({
 
     // use this for initialization
     onLoad: function () {
-
+        var manager = cc.director.getCollisionManager();
+        manager.enabled = true;
     },
 
     // called every frame, uncomment this function to activate update callback

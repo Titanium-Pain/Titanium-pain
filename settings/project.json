@@ -1,3 +1,35 @@
 {
+  "collision-matrix": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "group-list": [
+    "Default",
+    "Enemy",
+    "Player",
+    "Bullet"
+  ],
   "start-scene": "c3a748c9-bc0b-408e-ba16-433547844b0b"
 }
