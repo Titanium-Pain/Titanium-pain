@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '668ca4H4g5KpJvlrDwNy45M', 'EnemyScript');
-// Script/EnemyScript.js
+// Script\EnemyScript.js
 
 cc.Class({
     "extends": cc.Component,

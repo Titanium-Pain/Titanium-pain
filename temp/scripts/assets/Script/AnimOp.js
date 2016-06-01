@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '4e3baV0NxpJN499jOJaFuhI', 'AnimOp');
-// Script/AnimOp.js
+// Script\AnimOp.js
 
 cc.Class({
     'extends': cc.Component,

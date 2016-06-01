@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '36629pAxdpBI4tOsHKceOZu', 'StartGame');
-// Script/StartGame.js
+// Script\StartGame.js
 
 cc.Class({
     'extends': cc.Component,
