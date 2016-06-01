@@ -4,9 +4,9 @@
     "unknown"
   ],
   "names": [],
-  "mappings": "AAAA,MAAM,CAAC,MAAM,GAAC;AACV,aAAS,EAAC,CAAC;CACd,CAAC",
+  "mappings": "AAAA,MAAM,CAAC,MAAM,GAAC;AACV,aAAS,EAAC,CAAC;AACX,SAAK,EAAC,CAAC;CACV,CAAC",
   "file": "unknown",
   "sourcesContent": [
-    "window.Global={\n    diffculty:0,\n};"
+    "window.Global={\n    diffculty:0,\n    score:0,\n};"
   ]
 }

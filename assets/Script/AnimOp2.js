@@ -22,7 +22,7 @@ cc.Class({
 
     // called every frame, uncomment this function to activate update callback
     onOp2Finished:function(){
-       cc.director.loadScene('Title');
+       cc.director.loadScene('Story');
     }
 
     // called every frame, uncomment this function to activate update callback

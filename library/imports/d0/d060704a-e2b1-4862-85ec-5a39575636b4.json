@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "locked-dust",
+    "texture": "a2083e3a-db88-4964-a4a0-2185afdaab56",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1136,
+      768
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1136,
+      768
+    ]
+  }
+}

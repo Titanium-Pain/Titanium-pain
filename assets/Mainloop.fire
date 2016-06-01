@@ -76,6 +76,9 @@
       },
       {
         "__id__": 5
+      },
+      {
+        "__id__": 9
       }
     ],
     "_rotationX": 0,
@@ -98,10 +101,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 9
+        "__id__": 11
       },
       {
-        "__id__": 10
+        "__id__": 12
       }
     ],
     "_prefab": null,
@@ -254,7 +257,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "435e4b9e-4b05-4aef-9c24-2898cecd9812"
+      "__uuid__": "931e623d-dd12-4dae-8250-719cc5a17445"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -285,6 +288,9 @@
     "shootingrange": 300,
     "bulletPrefab": {
       "__uuid__": "aeb6b445-afd1-4a84-8031-74da7199994f"
+    },
+    "attacksound": {
+      "__uuid__": "e3d51911-2d1e-4524-96eb-89b123ae40f0"
     }
   },
   {
@@ -302,6 +308,78 @@
       "y": 0
     },
     "_radius": 15
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "New Label",
+    "_objFlags": 0,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_cascadeOpacityEnabled": true,
+    "_parent": {
+      "__id__": 2
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 135.61,
+      "height": 40
+    },
+    "_children": [],
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_scaleX": 1,
+    "_scaleY": 1,
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": -391,
+      "y": 286
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_localZOrder": 0,
+    "_globalZOrder": 0,
+    "_tag": -1,
+    "_opacityModifyRGB": false,
+    "_reorderChildDirty": false,
+    "_id": "f0c12a6P1ZLg7csegihbUQ/",
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 10
+      }
+    ],
+    "_prefab": null,
+    "groupIndex": 0
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 9
+    },
+    "_enabled": true,
+    "_useOriginalSize": false,
+    "_fontSize": 40,
+    "_lineHeight": 40,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_N$string": "Wave:0",
+    "_N$horizontalAlign": 1,
+    "_N$verticalAlign": 1,
+    "_N$overflow": 0
   },
   {
     "__type__": "cc.Canvas",
@@ -339,6 +417,9 @@
     },
     "bgm": {
       "__uuid__": "077df328-70eb-4e17-a489-3a1db3c56c7e"
+    },
+    "waveDisplay": {
+      "__id__": 10
     }
   }
 ]

@@ -45,6 +45,10 @@ cc.Class({
         this.setInputControl();
     },
     
+    playShootSound: function () {
+        cc.audioEngine.playEffect(this.attacksound, false);
+    },
+    
     setInputControl: function () {
         var self = this;
         cc.eventManager.addListener({
@@ -152,9 +156,9 @@ cc.Class({
             this.node.addChild(newbullet);
             newbullet.setPosition(0,0);
             var script=newbullet.getComponent("Bullet");
-            cc.audioEngine.playEffect(this.attacksound,false,100);
             script.direction=a;
             script.shootingrange=this.shootingrange;
+            this.node.setRotation(90*a);
             this.atkcount=0;
         }
     },
@@ -190,13 +194,13 @@ cc.Class({
             this.attack(0);
         }
         if(this.atkdown){
-            this.attack(1);
-        }
-        if(this.atkleft){
             this.attack(2);
         }
-        if(this.atkright){
+        if(this.atkleft){
             this.attack(3);
+        }
+        if(this.atkright){
+            this.attack(1);
         }
     },
     

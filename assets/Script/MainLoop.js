@@ -27,6 +27,10 @@ cc.Class({
             default:null,
             url:cc.AudioClip,
         },
+        waveDisplay:{
+            default:null,
+            type:cc.Label,
+        },
     },
 
     // use this for initialization
@@ -35,6 +39,7 @@ cc.Class({
         manager.enabled = true;
         this.enemyCount=0;
         this.wave=0;
+        window.Global.score=0;
         //console.log(enemyCount);
         var diffculty= window.Global.diffculty;
         //console.log(cc.game.isPersistRootNode(this.passarg));
@@ -48,6 +53,9 @@ cc.Class({
                 break;
             case 2:
                 this.spawnNumber=35;
+                break;
+            case 3:
+                this.spawnNumber=50;
                 break;
         }
         cc.audioEngine.playMusic(this.bgm,true);
@@ -65,7 +73,7 @@ cc.Class({
         var maxy=this.node.height/2;
         randx = cc.randomMinus1To1() * maxx;
         randy = cc.randomMinus1To1() * maxy;
-        while((((randx-playerx)*(randx-playerx))+((randy-playery)*(randy-playery)))<10000){
+        while((((randx-playerx)*(randx-playerx))+((randy-playery)*(randy-playery)))<45000){
             randx = cc.randomMinus1To1() * maxx;
             randy = cc.randomMinus1To1() * maxy;
         }
@@ -98,7 +106,8 @@ cc.Class({
                 cc.director.loadScene("Finish");
             }
             this.spawnNumber+=5;
-            this.spawnEnemy()
+            this.spawnEnemy();
+            this.waveDisplay.string='Wave:'+ this.wave.toString()
         }
     },
 });

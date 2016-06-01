@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "308a1038-901b-423c-a6e7-94378b7f30bc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "unlocked-dungeon": {
+      "ver": "1.0.3",
+      "uuid": "aab7aa08-4a3b-4923-ba1d-0b26a1156621",
+      "rawTextureUuid": "308a1038-901b-423c-a6e7-94378b7f30bc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 0,
+      "width": 1135,
+      "height": 768,
+      "rawWidth": 1136,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

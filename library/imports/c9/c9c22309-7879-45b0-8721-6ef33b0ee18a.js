@@ -17,7 +17,9 @@ cc.Class({
     },
 
     // use this for initialization
-    onLoad: function onLoad() {},
+    onLoad: function onLoad() {
+        this.node.parent.getComponent("Player").playShootSound();
+    },
 
     outOfTheWall: function outOfTheWall() {
         if (this.node.x > this.shootingrange || this.node.x < -this.shootingrange || this.node.y > this.shootingrange || this.node.y < -this.shootingrange) {
@@ -28,20 +30,21 @@ cc.Class({
 
     // called every frame, uncomment this function to activate update callback
     update: function update(dt) {
-        switch (this.direction) {
+        /*switch(this.direction){
             case 0:
-                this.node.y += this.speed;
+                this.node.y+=this.speed;
                 break;
             case 1:
-                this.node.y -= this.speed;
+                this.node.x+=this.speed;
                 break;
             case 2:
-                this.node.x -= this.speed;
+                this.node.y-=this.speed;
                 break;
             case 3:
-                this.node.x += this.speed;
+                this.node.x-=this.speed;
                 break;
-        }
+        }*/
+        this.node.y += this.speed;
         if (this.outOfTheWall()) {
             this.node.destroy();
         }

@@ -38,5 +38,10 @@ cc.Class({
     chooseHard: function chooseHard() {
         window.Global.diffculty = 2;
         cc.director.loadScene("Mainloop");
+    },
+
+    chooseInsane: function chooseInsane() {
+        window.Global.diffculty = 3;
+        cc.director.loadScene("Mainloop");
     }
 });

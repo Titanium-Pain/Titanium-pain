@@ -41,4 +41,9 @@ cc.Class({
         window.Global.diffculty=2;
         cc.director.loadScene("Mainloop");
     },
+    
+    chooseInsane:function(){
+        window.Global.diffculty=3;
+        cc.director.loadScene("Mainloop");
+    },
 });

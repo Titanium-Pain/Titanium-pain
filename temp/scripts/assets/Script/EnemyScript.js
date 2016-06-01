@@ -38,6 +38,7 @@ cc.Class({
     onCollisionEnter: function onCollisionEnter(other, self) {
         //this.node.parent.getComponent("MainLoop").enemyCount--;
         this.game.enemyCount--;
+        window.Global.score++;
         self.node.destroy();
         if (other.node.group == "Player") {
             cc.director.loadScene("GameOver");

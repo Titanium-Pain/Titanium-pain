@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "unlocked-dungeon",
+    "texture": "308a1038-901b-423c-a6e7-94378b7f30bc",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      1135,
+      768
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      1136,
+      768
+    ]
+  }
+}
