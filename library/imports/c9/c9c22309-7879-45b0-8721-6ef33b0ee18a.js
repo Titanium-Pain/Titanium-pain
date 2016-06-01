@@ -11,15 +11,16 @@ cc.Class({
         //    readonly: false,    // optional, default is false
         // },
         // ...
+        speed: 10,
         direction: 0,
-        speed: 10
+        shootingrange: 250
     },
 
     // use this for initialization
     onLoad: function onLoad() {},
 
     outOfTheWall: function outOfTheWall() {
-        if (this.node.x > 480 || this.node.x < -480 || this.node.y > 320 || this.node.y < -320) {
+        if (this.node.x > this.shootingrange || this.node.x < -this.shootingrange || this.node.y > this.shootingrange || this.node.y < -this.shootingrange) {
             return true;
         }
         return false;

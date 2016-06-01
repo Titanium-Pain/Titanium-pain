@@ -1,15 +1,16 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "Enemy",
+    "_name": "",
     "_objFlags": 0,
+    "_rawFiles": null,
     "data": {
       "__id__": 1
     }
   },
   {
     "__type__": "cc.Node",
-    "_name": "Enemy",
+    "_name": "bullet",
     "_objFlags": 0,
     "_opacity": 255,
     "_color": {
@@ -28,8 +29,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 30,
-      "height": 30
+      "width": 5,
+      "height": 5
     },
     "_children": [],
     "_rotationX": 0,
@@ -38,8 +39,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -372.1,
-      "y": -271.1
+      "x": -261,
+      "y": -359
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -56,11 +57,15 @@
       },
       {
         "__id__": 3
+      },
+      {
+        "__id__": 4
       }
     ],
     "_prefab": {
-      "__id__": 4
-    }
+      "__id__": 5
+    },
+    "groupIndex": 3
   },
   {
     "__type__": "cc.Sprite",
@@ -71,7 +76,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "cafed9bb-d16e-44f2-bf99-4976a70aacb6"
+      "__uuid__": "c4f5b746-6835-4732-aeb0-f72f7b7419e3"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -89,26 +94,45 @@
     "_atlas": null
   },
   {
-    "__type__": "668ca4H4g5KpJvlrDwNy45M",
+    "__type__": "c9c22MJeHlFsIchbvM7DuGK",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 1
     },
     "_enabled": true,
-    "sightDetectRaidus": 80,
-    "hearingDetectRadius": 40,
-    "petrolcooldown": 5,
-    "speed": 5,
-    "count": 0,
-    "rand": 0
+    "speed": 10,
+    "direction": 1,
+    "shootingrange": 250
+  },
+  {
+    "__type__": "cc.BoxCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "tag": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_size": {
+      "__type__": "cc.Size",
+      "width": 5,
+      "height": 5
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
     },
-    "asset": null,
-    "fileId": "87830StIitN+5ypNwBku7/M"
+    "asset": {
+      "__uuid__": "aeb6b445-afd1-4a84-8031-74da7199994f"
+    },
+    "fileId": "15450jR6BFPkoFQ3kFnu5Jx"
   }
 ]

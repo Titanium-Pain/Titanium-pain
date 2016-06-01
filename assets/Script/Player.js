@@ -12,10 +12,18 @@ cc.Class({
         // },
         // ...
         speed:0,
+        atkcooldown:10,
+        atkcount:0,
+        shootingrange:200,
+        
         /*moveup:false,
         movedown:false,
         moveleft:false,
         moveright:false,*/
+        bulletPrefab:{
+            default:null,
+            type:cc.Prefab,
+        },
     },
 
     // use this for initialization
@@ -24,6 +32,12 @@ cc.Class({
         var movedown=false;
         var moveleft=false;
         var moveright=false;
+        var atkup=false;
+        var atkdown=false;
+        var atkleft=false;
+        var atkright=false;
+        var attatkdir=0;
+        this.atkcount=0;
         this.setInputControl();
     },
     
@@ -57,6 +71,30 @@ cc.Class({
                         //self.moveup = false;
                         //self.movedown = false;
                         break;
+                    case cc.KEY.up:
+                        self.atkup=true;
+                        self.atkdown=false;
+                        self.atkleft=false;
+                        self.atkright=false;
+                        break;
+                    case cc.KEY.down:
+                        self.atkup=false;
+                        self.atkdown=true;
+                        self.atkleft=false;
+                        self.atkright=false;
+                        break;
+                    case cc.KEY.left:
+                        self.atkup=false;
+                        self.atkdown=false;
+                        self.atkleft=true;
+                        self.atkright=false;
+                        break;
+                    case cc.KEY.right:
+                        self.atkup=false;
+                        self.atkdown=false;
+                        self.atkleft=false;
+                        self.atkright=true;
+                        break;
                 }
             },
             onKeyReleased: function(keyCode, event) {
@@ -73,6 +111,18 @@ cc.Class({
                     case cc.KEY.d:
                         self.moveright = false;
                         break;
+                    case cc.KEY.up:
+                        self.atkup=false;
+                        break;
+                    case cc.KEY.down:
+                        self.atkdown=false;
+                        break;
+                    case cc.KEY.left:
+                        self.atkleft=false;
+                        break;
+                    case cc.KEY.right:
+                        self.atkright=false;
+                        break;
                 }
             }
         }, self.node);
@@ -84,9 +134,29 @@ cc.Class({
         }
         return false;
     },
+    
+    checkAtkCooldown:function(){
+        if(this.atkcount>=this.atkcooldown){
+            return true;
+        }
+        return false;
+    },
+    
+    attack:function(a){
+        if(this.checkAtkCooldown()){
+            var newbullet=cc.instantiate(this.bulletPrefab);
+            this.node.addChild(newbullet);
+            var script=newbullet.getComponent("Bullet");
+            script.direction=a;
+            script.shootingrange=this.shootingrange;
+            newbullet.setPosition(0,0);
+            this.atkcount=0;
+        }
+    },
 
     // called every frame, uncomment this function to activate update callback
     update: function (dt) {
+        this.atkcount++;
         if(this.moveleft){
             this.node.x-=this.speed;
             if(this.outOfTheWall()){
@@ -110,6 +180,18 @@ cc.Class({
             if(this.outOfTheWall()){
                 this.node.y-=this.speed;
             }
+        }
+        if(this.atkup){
+            this.attack(0);
+        }
+        if(this.atkdown){
+            this.attack(1);
+        }
+        if(this.atkleft){
+            this.attack(2);
+        }
+        if(this.atkright){
+            this.attack(3);
         }
     },
 });
