@@ -1,6 +1,6 @@
 "use strict";
 cc._RFpush(module, '668ca4H4g5KpJvlrDwNy45M', 'EnemyScript');
-// Script\EnemyScript.js
+// Script/EnemyScript.js
 
 cc.Class({
     "extends": cc.Component,
@@ -20,6 +20,7 @@ cc.Class({
         petrolcooldown: 1,
         speed: 0,
         count: 0
+
     },
 
     // use this for initialization
@@ -58,91 +59,91 @@ cc.Class({
             switch (rand) {
                 case 1:
                     this.node.x += this.speed;
-                    /*if(this.outOfTheWall()){
-                        this.node.x-=this.speed;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.x -= this.speed;
+                    }
                     break;
                 case 2:
                     this.node.x -= this.speed;
-                    /*if(this.outOfTheWall()){
-                        this.node.x+=this.speed;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.x += this.speed;
+                    }
                     break;
                 case 3:
                     this.node.y += this.speed;
-                    /*if(this.outOfTheWall()){
-                        this.node.y-=this.speed;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.y -= this.speed;
+                    }
                     break;
                 case 4:
                     this.node.y -= this.speed;
-                    /*if(this.outOfTheWall()){
-                        this.node.y+=this.speed;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.y += this.speed;
+                    }
                     break;
                 case 5:
                     this.node.x -= this.speed * 0.8;
                     this.node.y += this.speed * 0.6;
-                    /*if(this.outOfTheWall()){
-                        this.node.x+=this.speed * 0.8;
-                        this.node.y-=this.speed * 0.6;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.x += this.speed * 0.8;
+                        this.node.y -= this.speed * 0.6;
+                    }
                     break;
                 case 6:
                     this.node.x -= this.speed * 0.6;
                     this.node.y += this.speed * 0.8;
-                    /*if(this.outOfTheWall()){
-                        this.node.x+=this.speed * 0.6;
-                        this.node.y-=this.speed * 0.8;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.x += this.speed * 0.6;
+                        this.node.y -= this.speed * 0.8;
+                    }
                     break;
                 case 7:
                     this.node.x += this.speed * 0.6;
                     this.node.y += this.speed * 0.8;
-                    /*if(this.outOfTheWall()){
-                        this.node.x-=this.speed * 0.6;
-                        this.node.y-=this.speed * 0.8;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.x -= this.speed * 0.6;
+                        this.node.y -= this.speed * 0.8;
+                    }
                     break;
                 case 8:
                     this.node.x -= this.speed * 0.6;
                     this.node.y -= this.speed * 0.8;
-                    /*if(this.outOfTheWall()){
-                        this.node.x+=this.speed * 0.6;
-                        this.node.y+=this.speed * 0.8;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.x += this.speed * 0.6;
+                        this.node.y += this.speed * 0.8;
+                    }
                     break;
                 case 9:
                     this.node.x -= this.speed * 0.8;
                     this.node.y -= this.speed * 0.6;
-                    /*if(this.outOfTheWall()){
-                        this.node.x+=this.speed * 0.8;
-                        this.node.y+=this.speed * 0.6;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.x += this.speed * 0.8;
+                        this.node.y += this.speed * 0.6;
+                    }
                     break;
                 case 10:
                     this.node.x += this.speed * 0.8;
                     this.node.y += this.speed * 0.6;
-                    /*if(this.outOfTheWall()){
-                        this.node.x-=this.speed * 0.8;
-                        this.node.y-=this.speed * 0.6;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.x -= this.speed * 0.8;
+                        this.node.y -= this.speed * 0.6;
+                    }
                     break;
                 case 11:
                     this.node.x += this.speed * 0.8;
                     this.node.y -= this.speed * 0.6;
-                    /*if(this.outOfTheWall()){
-                        this.node.x-=this.speed * 0.8;
-                        this.node.y+=this.speed * 0.6;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.x -= this.speed * 0.8;
+                        this.node.y += this.speed * 0.6;
+                    }
                     break;
                 case 12:
                     this.node.x += this.speed * 0.6;
                     this.node.y -= this.speed * 0.8;
-                    /*if(this.outOfTheWall()){
-                        this.node.x-=this.speed * 0.6;
-                        this.node.y+=this.speed * 0.8;
-                    }*/
+                    if (this.outOfTheWall()) {
+                        this.node.x -= this.speed * 0.6;
+                        this.node.y += this.speed * 0.8;
+                    }
                     break;
             }
             this.count = 0;

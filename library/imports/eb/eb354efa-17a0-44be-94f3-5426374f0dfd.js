@@ -78,19 +78,38 @@ cc.Class({
         }, self.node);
     },
 
+    outOfTheWall: function outOfTheWall() {
+        if (this.node.x > 480 || this.node.x < -480 || this.node.y > 320 || this.node.y < -320) {
+            return true;
+        }
+        return false;
+    },
+
     // called every frame, uncomment this function to activate update callback
     update: function update(dt) {
         if (this.moveleft) {
             this.node.x -= this.speed;
+            if (this.outOfTheWall()) {
+                this.node.x += this.speed;
+            }
         }
         if (this.moveright) {
             this.node.x += this.speed;
+            if (this.outOfTheWall()) {
+                this.node.x -= this.speed;
+            }
         }
         if (this.movedown) {
             this.node.y -= this.speed;
+            if (this.outOfTheWall()) {
+                this.node.y += this.speed;
+            }
         }
         if (this.moveup) {
             this.node.y += this.speed;
+            if (this.outOfTheWall()) {
+                this.node.y -= this.speed;
+            }
         }
     }
 });
