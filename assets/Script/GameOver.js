@@ -15,10 +15,15 @@ cc.Class({
             default:null,
             type:cc.Label,
         },
+        playsound:{
+            default:null,
+            url: cc.AudioClip,
+        },
     },
 
     // use this for initialization
     onLoad: function () {
+        cc.audioEngine.playMusic(this.playsound);
         var self = this;
         this.setScoreLabel();
         cc.eventManager.addListener({

@@ -63,7 +63,7 @@
                 "width": 1280
               },
               {
-                "active": 1,
+                "active": 0,
                 "height": 283,
                 "panels": [
                   "console",

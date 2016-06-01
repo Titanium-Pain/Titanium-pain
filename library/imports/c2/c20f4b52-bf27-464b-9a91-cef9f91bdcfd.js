@@ -58,7 +58,7 @@ cc.Class({
                 this.spawnNumber = 50;
                 break;
         }
-        cc.audioEngine.playMusic(this.bgm, true);
+        cc.audioEngine.playMusic(this.bgm);
         //console.log("onLoad "+this.spawnNumber);
     },
 

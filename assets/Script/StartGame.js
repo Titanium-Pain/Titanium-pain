@@ -11,10 +11,15 @@ cc.Class({
         //    readonly: false,    // optional, default is false
         // },
         // ...
+        startingmusic:{
+            default:null,
+            url:cc.AudioClip,
+        },
     },
 
     // use this for initialization
     onLoad: function () {
+        cc.audioEngine.playMusic(this.startingmusic);
         var self = this;
         cc.eventManager.addListener({
             event: cc.EventListener.KEYBOARD,

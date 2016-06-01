@@ -512,6 +512,9 @@
     "_enabled": true,
     "scoreDisplay": {
       "__id__": 12
+    },
+    "playsound": {
+      "__uuid__": "41e47da3-8946-4777-98a6-933a964b31ec"
     }
   }
 ]
