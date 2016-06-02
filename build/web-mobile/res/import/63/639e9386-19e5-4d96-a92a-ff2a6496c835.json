@@ -1,0 +1,85 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "4",
+  "_duration": 6,
+  "sample": 30,
+  "curveData": {
+    "paths": {
+      "win": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 100
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 2.966666666666667,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "win-2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.9666666666666667,
+              "value": 0
+            },
+            {
+              "frame": 2.966666666666667,
+              "value": 255
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "New Button": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2.966666666666667,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "New Label": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 3,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 2.966666666666667,
+      "func": "",
+      "params": []
+    }
+  ]
+}

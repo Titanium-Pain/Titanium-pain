@@ -93,11 +93,39 @@
         "type": "dock"
       }
     },
-    "window-1464824944443": {
-      "x": -8,
-      "y": -8,
-      "width": 1456,
-      "height": 912
+    "window-1464840914919": {
+      "x": 1756,
+      "y": 135,
+      "width": 661,
+      "height": 728
+    },
+    "window-1464841281476": {
+      "x": 462,
+      "y": 60,
+      "width": 516,
+      "height": 779,
+      "layout": {
+        "docks": [
+          {
+            "active": 0,
+            "height": 740,
+            "panels": [
+              "builder"
+            ],
+            "type": "panel",
+            "width": 500
+          }
+        ],
+        "no-collapse": true,
+        "row": false,
+        "type": "dock"
+      }
+    },
+    "worker": {
+      "x": 520,
+      "y": 280,
+      "width": 400,
+      "height": 300
     }
   }
 }

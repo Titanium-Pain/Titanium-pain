@@ -101,7 +101,7 @@
       "__id__": 1
     },
     "_enabled": true,
-    "DetectRadius": 125,
+    "DetectRadius": 300,
     "petrolcooldown": 5,
     "speed": 5,
     "count": 0,

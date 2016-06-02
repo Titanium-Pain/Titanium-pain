@@ -1,0 +1,14 @@
+{
+  "buildPath": "E:\\Titanium-pain\\build",
+  "debug": true,
+  "keystoreAlias": "",
+  "keystoreAliasPassword": "",
+  "keystorePassword": "",
+  "keystorePath": "",
+  "platform": "web-desktop",
+  "previewHeight": 640,
+  "previewWidth": 960,
+  "sourceMaps": true,
+  "template": "default",
+  "useDebugKeystore": true
+}

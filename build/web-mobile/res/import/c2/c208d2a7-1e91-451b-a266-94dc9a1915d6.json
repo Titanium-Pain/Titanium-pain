@@ -1,0 +1,61 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "Enemy",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Enemy",
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 30,
+      "height": 30
+    },
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": 218,
+      "y": 114
+    },
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      }
+    ],
+    "groupIndex": 1
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 1
+    },
+    "_spriteFrame": {
+      "__uuid__": "2581fcd2-3672-46de-a211-5c9958abf9d1"
+    },
+    "_sizeMode": 0
+  },
+  {
+    "__type__": "668ca4H4g5KpJvlrDwNy45M",
+    "node": {
+      "__id__": 1
+    },
+    "DetectRadius": 300,
+    "petrolcooldown": 5,
+    "speed": 5
+  },
+  {
+    "__type__": "cc.CircleCollider",
+    "node": {
+      "__id__": 1
+    },
+    "_radius": 14
+  }
+]

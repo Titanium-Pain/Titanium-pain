@@ -1,0 +1,267 @@
+[
+  {
+    "__type__": "cc.SceneAsset",
+    "_name": "Finish",
+    "scene": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Scene",
+    "_anchorPoint": {
+      "__type__": "cc.Vec2"
+    },
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Canvas",
+    "_parent": {
+      "__id__": 1
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 960,
+      "height": 640
+    },
+    "_children": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 11
+      }
+    ],
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": 480,
+      "y": 320
+    },
+    "_id": "db880J+cINJj7lJXxhfW2S6",
+    "_components": [
+      {
+        "__id__": 13
+      },
+      {
+        "__id__": 14
+      },
+      {
+        "__id__": 15
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "win",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1136,
+      "height": 768
+    },
+    "_scaleX": 0.9,
+    "_scaleY": 0.9,
+    "_components": [
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 3
+    },
+    "_spriteFrame": {
+      "__uuid__": "9017538d-4c5e-4833-a21f-3fe697099296"
+    }
+  },
+  {
+    "__type__": "cc.Animation",
+    "node": {
+      "__id__": 3
+    },
+    "_clips": [
+      {
+        "__uuid__": "639e9386-19e5-4d96-a92a-ff2a6496c835"
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "win-2",
+    "_opacity": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1136,
+      "height": 768
+    },
+    "_components": [
+      {
+        "__id__": 7
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 6
+    },
+    "_spriteFrame": {
+      "__uuid__": "476afacb-172d-41fd-a73d-d9688049fc9c"
+    },
+    "_sizeMode": 0
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "New Button",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 100
+    },
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": 384,
+      "y": -247
+    },
+    "_components": [
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 10
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 8
+    },
+    "_spriteFrame": {
+      "__uuid__": "1ca1d063-4ea2-44f6-a4a3-23c1c6025667"
+    },
+    "_type": 1,
+    "_sizeMode": 0
+  },
+  {
+    "__type__": "cc.Button",
+    "node": {
+      "__id__": 8
+    },
+    "transition": 2,
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "pressedSprite": {
+      "__uuid__": "e9ec654c-97a2-4787-9325-e6a10375219a"
+    },
+    "hoverSprite": {
+      "__uuid__": "e9ec654c-97a2-4787-9325-e6a10375219a"
+    },
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "_N$normalSprite": {
+      "__uuid__": "1ca1d063-4ea2-44f6-a4a3-23c1c6025667"
+    },
+    "_N$disabledSprite": {
+      "__uuid__": "29158224-f8dd-4661-a796-1ffab537140e"
+    },
+    "_N$target": {
+      "__id__": 8
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "New Label",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 444.63,
+      "height": 240
+    },
+    "_components": [
+      {
+        "__id__": 12
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Label",
+    "node": {
+      "__id__": 11
+    },
+    "_useOriginalSize": false,
+    "_N$string": "Producer: ddw1ng\n\nLead Artist: EDStrickland\n\nProgramming: ddw1ng\nEDStrickland",
+    "_N$horizontalAlign": 1,
+    "_N$verticalAlign": 1
+  },
+  {
+    "__type__": "cc.Canvas",
+    "_objFlags": 3670016,
+    "node": {
+      "__id__": 2
+    }
+  },
+  {
+    "__type__": "cc.Animation",
+    "node": {
+      "__id__": 2
+    },
+    "_defaultClip": {
+      "__uuid__": "639e9386-19e5-4d96-a92a-ff2a6496c835"
+    },
+    "_clips": [
+      {
+        "__uuid__": "639e9386-19e5-4d96-a92a-ff2a6496c835"
+      }
+    ],
+    "playOnLoad": true
+  },
+  {
+    "__type__": "0fd33A665BNhpcv6Ce/8D+Q",
+    "node": {
+      "__id__": 2
+    },
+    "bgm": {
+      "__uuid__": "6bcd74c0-6c92-45c1-8dcd-8d487f1ecf0d"
+    }
+  }
+]

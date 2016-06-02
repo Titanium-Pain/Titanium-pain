@@ -1,141 +1,259 @@
-2016-06-01T23:35:49.071Z - normal: Load ~/.CocosCreator/settings.json
-2016-06-01T23:35:49.078Z - normal: checking language setting...
-2016-06-01T23:35:49.078Z - normal: Language: zh
-2016-06-01T23:35:49.102Z - success: protocol editor-framework registerred
-2016-06-01T23:35:49.103Z - success: protocol app registerred
-2016-06-01T23:35:49.103Z - success: protocol packages registerred
-2016-06-01T23:35:49.103Z - success: protocol unpack registerred
-2016-06-01T23:35:49.356Z - normal: connected!
-2016-06-01T23:35:49.359Z - normal: Check project E:\Titanium-pain
-2016-06-01T23:35:49.362Z - normal: Initializing Cocos Creator Editor
-2016-06-01T23:35:49.800Z - normal: Initializing Cocos2d
-2016-06-01T23:35:50.007Z - normal: Initializing Asset Database
-2016-06-01T23:35:50.211Z - success: protocol uuid registerred
-2016-06-01T23:35:50.212Z - success: protocol uuid registerred
-2016-06-01T23:35:50.212Z - success: protocol thumbnail registerred
-2016-06-01T23:35:50.212Z - normal: Loading editor/builtin packages
-2016-06-01T23:35:50.574Z - success: assets loaded
-2016-06-01T23:35:50.577Z - success: builder loaded
-2016-06-01T23:35:50.584Z - success: hierarchy loaded
-2016-06-01T23:35:50.590Z - success: inspector loaded
-2016-06-01T23:35:50.594Z - success: keystore loaded
-2016-06-01T23:35:50.601Z - success: node-library loaded
-2016-06-01T23:35:50.606Z - success: preferences loaded
-2016-06-01T23:35:50.638Z - success: project-importer loaded
-2016-06-01T23:35:50.643Z - success: project-settings loaded
-2016-06-01T23:35:50.674Z - success: ui-kit loaded
-2016-06-01T23:35:50.678Z - success: ui-grid loaded
-2016-06-01T23:35:50.686Z - success: scene loaded
-2016-06-01T23:35:50.688Z - success: sprite-editor loaded
-2016-06-01T23:35:50.703Z - success: timeline loaded
-2016-06-01T23:35:50.715Z - success: ui-kit-extra loaded
-2016-06-01T23:35:50.715Z - normal: Loading builtin packages
-2016-06-01T23:35:50.723Z - success: asset-db-debugger loaded
-2016-06-01T23:35:50.726Z - success: code-editor loaded
-2016-06-01T23:35:50.742Z - success: color-picker loaded
-2016-06-01T23:35:50.748Z - success: console loaded
-2016-06-01T23:35:50.751Z - success: package-manager loaded
-2016-06-01T23:35:50.757Z - success: tester loaded
-2016-06-01T23:35:50.760Z - success: ui-tree loaded
-2016-06-01T23:35:50.819Z - normal: Initializing project E:\Titanium-pain
-2016-06-01T23:35:50.845Z - normal: Loading packages
-2016-06-01T23:35:50.849Z - normal: Run Application
-2016-06-01T23:35:53.120Z - success: preview server running at http://localhost:7456
-2016-06-01T23:35:57.885Z - normal: 1.1.0
-2016-06-01T23:44:56.639Z - normal: Compiled successfully
-2016-06-01T23:46:33.587Z - normal: Compiled successfully
-2016-06-01T23:48:24.171Z - normal: Compiled successfully
-2016-06-01T23:49:17.030Z - normal: Compiled successfully
-2016-06-01T23:49:51.883Z - normal: Compiled successfully
-2016-06-01T23:56:21.567Z - normal: Compiled successfully
-2016-06-01T23:56:21.905Z - error: Can't generate child path for node.
-    at Object.AnimUtils.showTrajectoryGizmo (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3525)
-    at Object.AnimUtils.changeCurrentClip (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3119)
-    at Object.AnimUtils.softReload (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:7064)
-    at Object.EditMode.softReload (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\edit-mode.js:1:851)
-    at C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\index.js:1:1282
-    at C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\node_modules\async\lib\async.js:52:16
-    at Immediate._onImmediate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\node_modules\async\lib\async.js:1206:34)
-    at processImmediate [as _immediateCallback] (timers.js:383:17)
-2016-06-01T23:56:21.923Z - error: Can't generate child path for node.
-    at Object.AnimUtils.showTrajectoryGizmo (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3525)
-    at Object.AnimUtils.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:4203)
-    at Object.defineProperties.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\index.js:1:15514)
-    at editor-scene.Editor.polymerPanel.messages.selection:activated (file:///C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/app.asar/editor/builtin/scene/panel/scene.js:1:11166)
-    at EventEmitter.<anonymous> (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor-framework\lib\renderer\panel.js:1:713)
-    at emitThree (events.js:102:20)
-    at EventEmitter.emit (events.js:175:7)
-2016-06-01T23:56:29.615Z - error: Can't generate child path for node.
-    at Object.AnimUtils.showTrajectoryGizmo (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3525)
-    at Object.AnimUtils.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:4203)
-    at Object.defineProperties.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\index.js:1:15514)
-    at editor-scene.Editor.polymerPanel.messages.selection:activated (file:///C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/app.asar/editor/builtin/scene/panel/scene.js:1:11166)
-    at EventEmitter.<anonymous> (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor-framework\lib\renderer\panel.js:1:713)
-    at emitThree (events.js:102:20)
-    at EventEmitter.emit (events.js:175:7)
-2016-06-01T23:56:30.934Z - normal: Compiled successfully
-2016-06-01T23:56:31.213Z - error: Can't generate child path for node.
-    at Object.AnimUtils.showTrajectoryGizmo (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3525)
-    at Object.AnimUtils.changeCurrentClip (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3119)
-    at Object.AnimUtils.softReload (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:7064)
-    at Object.EditMode.softReload (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\edit-mode.js:1:851)
-    at C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\index.js:1:1282
-    at C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\node_modules\async\lib\async.js:52:16
-    at Immediate._onImmediate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\node_modules\async\lib\async.js:1206:34)
-    at processImmediate [as _immediateCallback] (timers.js:383:17)
-2016-06-01T23:56:31.229Z - error: Can't generate child path for node.
-    at Object.AnimUtils.showTrajectoryGizmo (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3525)
-    at Object.AnimUtils.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:4203)
-    at Object.defineProperties.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\index.js:1:15514)
-    at editor-scene.Editor.polymerPanel.messages.selection:activated (file:///C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/app.asar/editor/builtin/scene/panel/scene.js:1:11166)
-    at EventEmitter.<anonymous> (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor-framework\lib\renderer\panel.js:1:713)
-    at emitThree (events.js:102:20)
-    at EventEmitter.emit (events.js:175:7)
-2016-06-01T23:56:38.636Z - error: Can't generate child path for node.
-    at Object.AnimUtils.showTrajectoryGizmo (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3525)
-    at Object.AnimUtils.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:4203)
-    at Object.defineProperties.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\index.js:1:15514)
-    at editor-scene.Editor.polymerPanel.messages.selection:activated (file:///C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/app.asar/editor/builtin/scene/panel/scene.js:1:11166)
-    at EventEmitter.<anonymous> (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor-framework\lib\renderer\panel.js:1:713)
-    at emitThree (events.js:102:20)
-    at EventEmitter.emit (events.js:175:7)
-2016-06-01T23:56:41.827Z - error: Can't generate child path for node.
-    at Object.AnimUtils.showTrajectoryGizmo (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3525)
-    at Object.AnimUtils.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:4203)
-    at Object.defineProperties.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\index.js:1:15514)
-    at editor-scene.Editor.polymerPanel.messages.selection:activated (file:///C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/app.asar/editor/builtin/scene/panel/scene.js:1:11166)
-    at EventEmitter.<anonymous> (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor-framework\lib\renderer\panel.js:1:713)
-    at emitThree (events.js:102:20)
-    at EventEmitter.emit (events.js:175:7)
-2016-06-01T23:56:47.008Z - error: Can't generate child path for node.
-    at Object.AnimUtils.showTrajectoryGizmo (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3525)
-    at Object.AnimUtils.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:4203)
-    at Object.defineProperties.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\index.js:1:15514)
-    at editor-scene.Editor.polymerPanel.messages.selection:activated (file:///C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/app.asar/editor/builtin/scene/panel/scene.js:1:11166)
-    at EventEmitter.<anonymous> (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor-framework\lib\renderer\panel.js:1:713)
-    at emitThree (events.js:102:20)
-    at EventEmitter.emit (events.js:175:7)
-2016-06-01T23:56:58.549Z - error: Can't generate child path for node.
-    at Object.AnimUtils.showTrajectoryGizmo (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3525)
-    at Object.AnimUtils.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:4203)
-    at Object.defineProperties.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\index.js:1:15514)
-    at editor-scene.Editor.polymerPanel.messages.selection:activated (file:///C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/app.asar/editor/builtin/scene/panel/scene.js:1:11166)
-    at EventEmitter.<anonymous> (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor-framework\lib\renderer\panel.js:1:713)
-    at emitThree (events.js:102:20)
-    at EventEmitter.emit (events.js:175:7)
-2016-06-01T23:57:00.380Z - error: Can't generate child path for node.
-    at Object.AnimUtils.showTrajectoryGizmo (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3525)
-    at Object.AnimUtils.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:4203)
-    at Object.defineProperties.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\index.js:1:15514)
-    at editor-scene.Editor.polymerPanel.messages.selection:activated (file:///C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/app.asar/editor/builtin/scene/panel/scene.js:1:11166)
-    at EventEmitter.<anonymous> (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor-framework\lib\renderer\panel.js:1:713)
-    at emitThree (events.js:102:20)
-    at EventEmitter.emit (events.js:175:7)
-2016-06-01T23:57:02.628Z - error: Can't generate child path for node.
-    at Object.AnimUtils.showTrajectoryGizmo (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:3525)
-    at Object.AnimUtils.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\anim-utils.js:1:4203)
-    at Object.defineProperties.activate (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor\page\scene-utils\index.js:1:15514)
-    at editor-scene.Editor.polymerPanel.messages.selection:activated (file:///C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/app.asar/editor/builtin/scene/panel/scene.js:1:11166)
-    at EventEmitter.<anonymous> (C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\app.asar\editor-framework\lib\renderer\panel.js:1:713)
-    at emitThree (events.js:102:20)
-    at EventEmitter.emit (events.js:175:7)
+2016-06-02T04:12:53.654Z - normal: Load ~/.CocosCreator/settings.json
+2016-06-02T04:12:53.660Z - normal: checking language setting...
+2016-06-02T04:12:53.660Z - normal: Language: zh
+2016-06-02T04:12:53.685Z - success: protocol editor-framework registerred
+2016-06-02T04:12:53.686Z - success: protocol app registerred
+2016-06-02T04:12:53.686Z - success: protocol packages registerred
+2016-06-02T04:12:53.686Z - success: protocol unpack registerred
+2016-06-02T04:12:53.920Z - normal: connected!
+2016-06-02T04:12:53.923Z - normal: Check project E:\Titanium-pain
+2016-06-02T04:12:53.925Z - normal: Initializing Cocos Creator Editor
+2016-06-02T04:12:54.288Z - normal: Initializing Cocos2d
+2016-06-02T04:12:54.499Z - normal: Initializing Asset Database
+2016-06-02T04:12:54.553Z - success: protocol uuid registerred
+2016-06-02T04:12:54.553Z - success: protocol uuid registerred
+2016-06-02T04:12:54.553Z - success: protocol thumbnail registerred
+2016-06-02T04:12:54.553Z - normal: Loading editor/builtin packages
+2016-06-02T04:12:54.757Z - success: assets loaded
+2016-06-02T04:12:54.760Z - success: builder loaded
+2016-06-02T04:12:54.766Z - success: hierarchy loaded
+2016-06-02T04:12:54.772Z - success: inspector loaded
+2016-06-02T04:12:54.774Z - success: keystore loaded
+2016-06-02T04:12:54.782Z - success: node-library loaded
+2016-06-02T04:12:54.787Z - success: preferences loaded
+2016-06-02T04:12:54.822Z - success: project-importer loaded
+2016-06-02T04:12:54.826Z - success: project-settings loaded
+2016-06-02T04:12:54.829Z - success: ui-kit loaded
+2016-06-02T04:12:54.832Z - success: ui-grid loaded
+2016-06-02T04:12:54.840Z - success: scene loaded
+2016-06-02T04:12:54.842Z - success: sprite-editor loaded
+2016-06-02T04:12:54.856Z - success: timeline loaded
+2016-06-02T04:12:54.858Z - success: ui-kit-extra loaded
+2016-06-02T04:12:54.858Z - normal: Loading builtin packages
+2016-06-02T04:12:54.863Z - success: asset-db-debugger loaded
+2016-06-02T04:12:54.865Z - success: code-editor loaded
+2016-06-02T04:12:54.865Z - success: color-picker loaded
+2016-06-02T04:12:54.871Z - success: console loaded
+2016-06-02T04:12:54.874Z - success: package-manager loaded
+2016-06-02T04:12:54.881Z - success: tester loaded
+2016-06-02T04:12:54.884Z - success: ui-tree loaded
+2016-06-02T04:12:54.950Z - normal: Initializing project E:\Titanium-pain
+2016-06-02T04:12:54.954Z - normal: Loading packages
+2016-06-02T04:12:54.958Z - normal: Run Application
+2016-06-02T04:12:55.867Z - success: preview server running at http://localhost:7456
+2016-06-02T04:12:59.730Z - normal: 1.1.0
+2016-06-02T04:13:54.230Z - normal: Compiled successfully
+2016-06-02T04:13:56.792Z - normal: Compiled successfully
+2016-06-02T04:14:57.367Z - normal: Compiled successfully
+2016-06-02T04:16:13.497Z - normal: Compiled successfully
+2016-06-02T04:16:47.615Z - normal: Simulator : Get data from file(C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-06-02T04:16:47.617Z - normal: Simulator : SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-06-02T04:16:47.618Z - normal: Simulator : WORKAREA WIDTH 1432.00, HEIGHT 809.00
+2016-06-02T04:16:47.619Z - normal: Simulator : FRAME SCALE = 1.00
+2016-06-02T04:16:48.499Z - normal: Simulator : Ready for GLSL
+2016-06-02T04:16:48.499Z - normal: Simulator : Ready for OpenGL 2.0
+2016-06-02T04:16:48.500Z - normal: Simulator : 
+2016-06-02T04:16:48.500Z - normal: Simulator : {
+2016-06-02T04:16:48.500Z - normal: Simulator : 	gl.version: 4.5.0 NVIDIA 365.10
+2016-06-02T04:16:48.500Z - normal: Simulator : 	gl.supports_NPOT: true
+2016-06-02T04:16:48.500Z - normal: Simulator : 	cocos2d.x.build_time: 13:17:38 May 27 2016
+2016-06-02T04:16:48.501Z - normal: Simulator : 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-06-02T04:16:48.501Z - normal: Simulator : 	cocos2d.x.compiled_with_profiler: false
+2016-06-02T04:16:48.501Z - normal: Simulator : 	cocos2d.x.build_type: DEBUG
+2016-06-02T04:16:48.501Z - normal: Simulator : 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-06-02T04:16:48.501Z - normal: Simulator : 	gl.max_texture_size: 16384
+2016-06-02T04:16:48.502Z - normal: Simulator : 	gl.supports_OES_packed_depth_stencil: false
+2016-06-02T04:16:48.503Z - normal: Simulator : 	gl.vendor: NVIDIA Corporation
+2016-06-02T04:16:48.503Z - normal: Simulator : 	gl.renderer: GeForce GTX 850M/PCIe/SSE2
+2016-06-02T04:16:48.503Z - normal: Simulator : 	gl.max_texture_units: 192
+2016-06-02T04:16:48.504Z - normal: Simulator : 	gl.supports_ETC1: false
+2016-06-02T04:16:48.504Z - normal: Simulator : 	gl.supports_PVRTC: false
+2016-06-02T04:16:48.504Z - normal: Simulator : 	gl.supports_BGRA8888: false
+2016-06-02T04:16:48.504Z - normal: Simulator : 	gl.supports_discard_framebuffer: false
+2016-06-02T04:16:48.504Z - normal: Simulator : 	gl.supports_vertex_array_object: true
+2016-06-02T04:16:48.504Z - normal: Simulator : 	gl.supports_OES_depth24: false
+2016-06-02T04:16:48.507Z - normal: Simulator : }
+2016-06-02T04:16:48.507Z - normal: Simulator : 
+2016-06-02T04:16:48.507Z - normal: Simulator : 
+2016-06-02T04:16:48.517Z - normal: Simulator : Project Config:
+2016-06-02T04:16:48.518Z - normal: Simulator :     project dir: C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\cocos2d-x\simulator\win32\
+2016-06-02T04:16:48.518Z - normal: Simulator :     writable path: $(PROJDIR)\
+2016-06-02T04:16:48.519Z - normal: Simulator :     script file: $(PROJDIR)\main.js
+2016-06-02T04:16:48.519Z - normal: Simulator :     frame size: 960 x 640
+2016-06-02T04:16:48.519Z - normal: Simulator :     frame scale: 1.00
+2016-06-02T04:16:48.519Z - normal: Simulator :     show console: NO
+2016-06-02T04:16:48.519Z - normal: Simulator :     write debug log: NO ()
+2016-06-02T04:16:48.520Z - normal: Simulator :     listen: 
+2016-06-02T04:16:48.520Z - normal: Simulator :     debugger: none
+2016-06-02T04:16:48.520Z - normal: Simulator :     add searching path:
+2016-06-02T04:16:48.520Z - normal: Simulator : 
+2016-06-02T04:16:48.520Z - normal: Simulator : 
+2016-06-02T04:16:48.520Z - normal: Simulator : 
+2016-06-02T04:16:48.523Z - normal: Simulator : ------------------------------------------------
+2016-06-02T04:16:48.523Z - normal: Simulator : LOAD Js FILE: main.js
+2016-06-02T04:16:48.523Z - normal: Simulator : ------------------------------------------------
+2016-06-02T04:16:49.426Z - normal: Simulator : Cocos2d-JS v3.9
+2016-06-02T04:16:49.515Z - normal: Simulator : iShow!
+2016-06-02T04:16:51.698Z - normal: Simulator : ERROR :  loadScene: Failed to load scene "ChooseMap" because "ChooseMap" is already loading
+2016-06-02T04:16:52.336Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:52.337Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:52.800Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:52.800Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:52.984Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:52.984Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:53.401Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:53.401Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:53.618Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:53.618Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:53.818Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:53.818Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:54.034Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:54.034Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:54.234Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:54.234Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:54.417Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:54.417Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:54.584Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:54.585Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:54.783Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:54.783Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:54.984Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:54.984Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:16:55.184Z - error: Simulator : 294:TypeError: this.chooseMap1 is not a function
+    at a (E:\Titanium-pain\library\bundle.project.js?009:NaN:0)
+2016-06-02T04:16:55.184Z - normal: Simulator : ScriptingCore::callFunctionName error:__errorHandler wasn't found!
+2016-06-02T04:17:16.863Z - normal: Compiled successfully
+2016-06-02T04:17:19.407Z - normal: Simulator : Get data from file(C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-06-02T04:17:19.409Z - normal: Simulator : SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-06-02T04:17:19.411Z - normal: Simulator : WORKAREA WIDTH 1432.00, HEIGHT 809.00
+2016-06-02T04:17:19.411Z - normal: Simulator : FRAME SCALE = 1.00
+2016-06-02T04:17:19.795Z - normal: Simulator : Ready for GLSL
+2016-06-02T04:17:19.795Z - normal: Simulator : Ready for OpenGL 2.0
+2016-06-02T04:17:19.795Z - normal: Simulator : 
+2016-06-02T04:17:19.795Z - normal: Simulator : {
+2016-06-02T04:17:19.796Z - normal: Simulator : 	gl.version: 4.5.0 NVIDIA 365.10
+2016-06-02T04:17:19.796Z - normal: Simulator : 	gl.supports_NPOT: true
+2016-06-02T04:17:19.796Z - normal: Simulator : 	cocos2d.x.build_time: 13:17:38 May 27 2016
+2016-06-02T04:17:19.796Z - normal: Simulator : 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-06-02T04:17:19.796Z - normal: Simulator : 	cocos2d.x.compiled_with_profiler: false
+2016-06-02T04:17:19.796Z - normal: Simulator : 	cocos2d.x.build_type: DEBUG
+2016-06-02T04:17:19.797Z - normal: Simulator : 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-06-02T04:17:19.797Z - normal: Simulator : 	gl.max_texture_size: 16384
+2016-06-02T04:17:19.798Z - normal: Simulator : 	gl.supports_OES_packed_depth_stencil: false
+2016-06-02T04:17:19.798Z - normal: Simulator : 	gl.vendor: NVIDIA Corporation
+2016-06-02T04:17:19.798Z - normal: Simulator : 	gl.renderer: GeForce GTX 850M/PCIe/SSE2
+2016-06-02T04:17:19.798Z - normal: Simulator : 	gl.max_texture_units: 192
+2016-06-02T04:17:19.798Z - normal: Simulator : 	gl.supports_ETC1: false
+2016-06-02T04:17:19.798Z - normal: Simulator : 	gl.supports_PVRTC: false
+2016-06-02T04:17:19.798Z - normal: Simulator : 	gl.supports_BGRA8888: false
+2016-06-02T04:17:19.798Z - normal: Simulator : 	gl.supports_discard_framebuffer: false
+2016-06-02T04:17:19.798Z - normal: Simulator : 	gl.supports_vertex_array_object: true
+2016-06-02T04:17:19.799Z - normal: Simulator : 	gl.supports_OES_depth24: false
+2016-06-02T04:17:19.799Z - normal: Simulator : }
+2016-06-02T04:17:19.799Z - normal: Simulator : 
+2016-06-02T04:17:19.799Z - normal: Simulator : 
+2016-06-02T04:17:19.799Z - normal: Simulator : Project Config:
+2016-06-02T04:17:19.799Z - normal: Simulator :     project dir: C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\cocos2d-x\simulator\win32\
+2016-06-02T04:17:19.799Z - normal: Simulator :     writable path: $(PROJDIR)\
+2016-06-02T04:17:19.800Z - normal: Simulator :     script file: $(PROJDIR)\main.js
+2016-06-02T04:17:19.800Z - normal: Simulator :     frame size: 960 x 640
+2016-06-02T04:17:19.800Z - normal: Simulator :     frame scale: 1.00
+2016-06-02T04:17:19.800Z - normal: Simulator :     show console: NO
+2016-06-02T04:17:19.800Z - normal: Simulator :     write debug log: NO ()
+2016-06-02T04:17:19.800Z - normal: Simulator :     listen: 
+2016-06-02T04:17:19.800Z - normal: Simulator :     debugger: none
+2016-06-02T04:17:19.800Z - normal: Simulator :     add searching path:
+2016-06-02T04:17:19.800Z - normal: Simulator : 
+2016-06-02T04:17:19.800Z - normal: Simulator : 
+2016-06-02T04:17:19.801Z - normal: Simulator : 
+2016-06-02T04:17:19.801Z - normal: Simulator : ------------------------------------------------
+2016-06-02T04:17:19.801Z - normal: Simulator : LOAD Js FILE: main.js
+2016-06-02T04:17:19.801Z - normal: Simulator : ------------------------------------------------
+2016-06-02T04:17:20.113Z - normal: Simulator : Cocos2d-JS v3.9
+2016-06-02T04:17:20.168Z - normal: Simulator : iShow!
+2016-06-02T04:17:21.681Z - normal: Simulator : ERROR :  loadScene: Failed to load scene "ChooseMap" because "ChooseMap" is already loading
+2016-06-02T04:17:27.847Z - normal: Simulator : Get data from file(C:/Users/Ed_Strickland/AppData/Local/CocosCreator/app-1.1.0/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-06-02T04:17:27.849Z - normal: Simulator : SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-06-02T04:17:27.851Z - normal: Simulator : WORKAREA WIDTH 1432.00, HEIGHT 809.00
+2016-06-02T04:17:27.852Z - normal: Simulator : FRAME SCALE = 1.00
+2016-06-02T04:17:28.235Z - normal: Simulator : Ready for GLSL
+2016-06-02T04:17:28.235Z - normal: Simulator : Ready for OpenGL 2.0
+2016-06-02T04:17:28.235Z - normal: Simulator : 
+2016-06-02T04:17:28.236Z - normal: Simulator : {
+2016-06-02T04:17:28.236Z - normal: Simulator : 	gl.version: 4.5.0 NVIDIA 365.10
+2016-06-02T04:17:28.236Z - normal: Simulator : 	gl.supports_NPOT: true
+2016-06-02T04:17:28.236Z - normal: Simulator : 	cocos2d.x.build_time: 13:17:38 May 27 2016
+2016-06-02T04:17:28.237Z - normal: Simulator : 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-06-02T04:17:28.237Z - normal: Simulator : 	cocos2d.x.compiled_with_profiler: false
+2016-06-02T04:17:28.237Z - normal: Simulator : 	cocos2d.x.build_type: DEBUG
+2016-06-02T04:17:28.237Z - normal: Simulator : 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-06-02T04:17:28.237Z - normal: Simulator : 	gl.max_texture_size: 16384
+2016-06-02T04:17:28.237Z - normal: Simulator : 	gl.supports_OES_packed_depth_stencil: false
+2016-06-02T04:17:28.238Z - normal: Simulator : 	gl.vendor: NVIDIA Corporation
+2016-06-02T04:17:28.238Z - normal: Simulator : 	gl.renderer: GeForce GTX 850M/PCIe/SSE2
+2016-06-02T04:17:28.238Z - normal: Simulator : 	gl.max_texture_units: 192
+2016-06-02T04:17:28.238Z - normal: Simulator : 	gl.supports_ETC1: false
+2016-06-02T04:17:28.239Z - normal: Simulator : 	gl.supports_PVRTC: false
+2016-06-02T04:17:28.240Z - normal: Simulator : 	gl.supports_BGRA8888: false
+2016-06-02T04:17:28.240Z - normal: Simulator : 	gl.supports_discard_framebuffer: false
+2016-06-02T04:17:28.240Z - normal: Simulator : 	gl.supports_vertex_array_object: true
+2016-06-02T04:17:28.240Z - normal: Simulator : 	gl.supports_OES_depth24: false
+2016-06-02T04:17:28.240Z - normal: Simulator : }
+2016-06-02T04:17:28.240Z - normal: Simulator : 
+2016-06-02T04:17:28.241Z - normal: Simulator : 
+2016-06-02T04:17:28.241Z - normal: Simulator : Project Config:
+2016-06-02T04:17:28.241Z - normal: Simulator :     project dir: C:\Users\Ed_Strickland\AppData\Local\CocosCreator\app-1.1.0\resources\cocos2d-x\simulator\win32\
+2016-06-02T04:17:28.241Z - normal: Simulator :     writable path: $(PROJDIR)\
+2016-06-02T04:17:28.241Z - normal: Simulator :     script file: $(PROJDIR)\main.js
+2016-06-02T04:17:28.241Z - normal: Simulator :     frame size: 960 x 640
+2016-06-02T04:17:28.241Z - normal: Simulator :     frame scale: 1.00
+2016-06-02T04:17:28.242Z - normal: Simulator :     show console: NO
+2016-06-02T04:17:28.242Z - normal: Simulator :     write debug log: NO ()
+2016-06-02T04:17:28.242Z - normal: Simulator :     listen: 
+2016-06-02T04:17:28.242Z - normal: Simulator :     debugger: none
+2016-06-02T04:17:28.242Z - normal: Simulator :     add searching path:
+2016-06-02T04:17:28.242Z - normal: Simulator : 
+2016-06-02T04:17:28.242Z - normal: Simulator : 
+2016-06-02T04:17:28.242Z - normal: Simulator : 
+2016-06-02T04:17:28.242Z - normal: Simulator : ------------------------------------------------
+2016-06-02T04:17:28.243Z - normal: Simulator : LOAD Js FILE: main.js
+2016-06-02T04:17:28.243Z - normal: Simulator : ------------------------------------------------
+2016-06-02T04:17:28.575Z - normal: Simulator : Cocos2d-JS v3.9
+2016-06-02T04:17:28.672Z - normal: Simulator : iShow!
+2016-06-02T04:17:30.032Z - normal: Simulator : ERROR :  loadScene: Failed to load scene "ChooseMap" because "ChooseMap" is already loading
+2016-06-02T04:19:19.747Z - normal: Compiled successfully
+2016-06-02T04:19:21.630Z - normal: 1.1.0
+2016-06-02T04:19:22.391Z - normal: Built to "E:\Titanium-pain\build" successfully
+2016-06-02T04:19:42.541Z - normal: Compiled successfully
+2016-06-02T04:19:44.477Z - normal: 1.1.0
+2016-06-02T04:19:45.016Z - normal: Built to "E:\Titanium-pain\build" successfully
+2016-06-02T04:19:51.592Z - normal: Compiled successfully
+2016-06-02T04:19:53.471Z - normal: 1.1.0
+2016-06-02T04:19:53.938Z - normal: Built to "E:\Titanium-pain\build" successfully
+2016-06-02T04:20:49.847Z - normal: Compiled successfully
+2016-06-02T04:20:51.713Z - normal: 1.1.0
+2016-06-02T04:20:52.626Z - normal: Built to "E:\Titanium-pain\build" successfully
+2016-06-02T04:24:41.913Z - normal: Compiled successfully
+2016-06-02T04:24:43.764Z - normal: 1.1.0
+2016-06-02T04:24:45.538Z - normal: Built to "E:\Titanium-pain\build" successfully
+2016-06-02T04:24:58.679Z - normal: Compiled successfully
+2016-06-02T04:25:00.486Z - normal: 1.1.0
+2016-06-02T04:25:01.002Z - normal: Built to "E:\Titanium-pain\build" successfully
+2016-06-02T04:26:19.961Z - normal: Compiled successfully
+2016-06-02T04:26:21.827Z - normal: 1.1.0
+2016-06-02T04:26:22.399Z - normal: Built to "E:\Titanium-pain\build" successfully
+2016-06-02T04:29:54.797Z - normal: Compiled successfully
+2016-06-02T04:29:58.603Z - normal: 1.1.0
+2016-06-02T04:29:59.215Z - normal: Built to "E:\Titanium-pain\build" successfully

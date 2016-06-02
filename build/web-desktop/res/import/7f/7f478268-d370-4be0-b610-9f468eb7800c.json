@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "locked-grass",
+    "texture": "e70b15c4-f30d-4f60-9fe4-d2f5b478e605",
+    "rect": [
+      0,
+      0,
+      1136,
+      768
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1136,
+      768
+    ]
+  }
+}
