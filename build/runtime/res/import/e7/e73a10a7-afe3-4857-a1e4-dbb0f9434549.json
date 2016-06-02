@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "you-died",
+    "texture": "3d6e8fea-32df-46af-8cd6-c9aeb970a7d4",
+    "rect": [
+      0,
+      0,
+      1000,
+      1000
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1000,
+      1000
+    ]
+  }
+}

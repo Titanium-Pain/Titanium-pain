@@ -1,0 +1,32 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "label",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Label",
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 50
+    },
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Label",
+    "node": {
+      "__id__": 1
+    },
+    "_useOriginalSize": false,
+    "_N$horizontalAlign": 1,
+    "_N$verticalAlign": 1
+  }
+]

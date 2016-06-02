@@ -5,7 +5,7 @@
   "keystoreAliasPassword": "",
   "keystorePassword": "",
   "keystorePath": "",
-  "platform": "web-desktop",
+  "platform": "runtime",
   "previewHeight": 640,
   "previewWidth": 960,
   "sourceMaps": true,

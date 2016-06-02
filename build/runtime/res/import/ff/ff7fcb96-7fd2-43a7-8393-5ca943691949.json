@@ -1,0 +1,148 @@
+[
+  {
+    "__type__": "cc.SceneAsset",
+    "_name": "op2",
+    "scene": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Scene",
+    "_anchorPoint": {
+      "__type__": "cc.Vec2"
+    },
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Canvas",
+    "_parent": {
+      "__id__": 1
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 960,
+      "height": 640
+    },
+    "_children": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": 480,
+      "y": 320
+    },
+    "_id": "6882dxAktRDwpnk5nhLBbRi",
+    "_components": [
+      {
+        "__id__": 9
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "logo-1",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 672,
+      "height": 517
+    },
+    "_children": [
+      {
+        "__id__": 4
+      }
+    ],
+    "_scaleX": 0.8,
+    "_scaleY": 0.8,
+    "_position": {
+      "__type__": "cc.Vec2",
+      "y": -41
+    },
+    "_components": [
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 8
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "New Label",
+    "_parent": {
+      "__id__": 3
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 565.31,
+      "height": 90
+    },
+    "_position": {
+      "__type__": "cc.Vec2",
+      "y": 347
+    },
+    "_components": [
+      {
+        "__id__": 5
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Label",
+    "node": {
+      "__id__": 4
+    },
+    "_useOriginalSize": false,
+    "_fontSize": 90,
+    "_lineHeight": 90,
+    "_N$string": "Presented  By",
+    "_N$horizontalAlign": 1,
+    "_N$verticalAlign": 1
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 3
+    },
+    "_spriteFrame": {
+      "__uuid__": "69d0e474-f055-4b15-8808-eafed01b021e"
+    }
+  },
+  {
+    "__type__": "cc.Animation",
+    "node": {
+      "__id__": 3
+    },
+    "_clips": [
+      {
+        "__uuid__": "6ab6f282-6395-446d-aa21-733a4d3d315e"
+      }
+    ]
+  },
+  {
+    "__type__": "43e31YqUUZMEZoHCsFf3oME",
+    "node": {
+      "__id__": 3
+    }
+  },
+  {
+    "__type__": "cc.Canvas",
+    "_objFlags": 3670016,
+    "node": {
+      "__id__": 2
+    }
+  }
+]

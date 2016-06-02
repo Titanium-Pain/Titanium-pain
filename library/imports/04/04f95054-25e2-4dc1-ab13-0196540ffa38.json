@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "potagonist-right",
+    "texture": "edc7b39c-110c-4bfd-8ad0-8e921e33cc5d",
+    "atlas": "",
+    "rect": [
+      323,
+      27,
+      597,
+      968
+    ],
+    "offset": [
+      121.5,
+      -11
+    ],
+    "originalSize": [
+      1000,
+      1000
+    ]
+  }
+}

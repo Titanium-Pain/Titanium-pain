@@ -2,19 +2,18 @@
 
     function boot () {
 
-        // retrieve minified raw assets
-        var rawAssets = _CCSettings.rawAssets;
-        for (var mount in rawAssets) {
-            var entries = rawAssets[mount];
-            for (var uuid in entries) {
-                var entry = entries[uuid];
-                if (typeof entry === 'object') {
-                    if (Array.isArray(entry)) {
-                        entries[uuid] = { url: entry[0], raw: false };
+        if ( !_CCSettings.debug ) {
+            // retrieve minified raw assets
+            var rawAssets = _CCSettings.rawAssets;
+            var assetTypes = _CCSettings.assetTypes;
+            for (var mount in rawAssets) {
+                var entries = rawAssets[mount];
+                for (var uuid in entries) {
+                    var entry = entries[uuid];
+                    var type = entry[1];
+                    if (typeof type === 'number') {
+                        entry[1] = assetTypes[type];
                     }
-                }
-                else {
-                    entries[uuid] = { url: entry, raw: true };
                 }
             }
         }
@@ -61,7 +60,12 @@
                 setLoadingDisplay();
             }
 
-            // cc.game.pause();
+            if (_CCSettings.orientation === 'landscape') {
+                cc.view.setOrientation(cc.macro.ORIENTATION_LANDSCAPE);
+            }
+            else if (_CCSettings.orientation === 'portrait') {
+                cc.view.setOrientation(cc.macro.ORIENTATION_PORTRAIT);
+            }
 
             // init assets
             cc.AssetLibrary.init({
@@ -106,7 +110,9 @@
             frameRate: 60,
             jsList: [
                 _CCSettings.debug ? 'src/project.dev.js' : 'src/project.js'
-            ]
+            ],
+            groupList: _CCSettings.groupList,
+            collisionMatrix: _CCSettings.collisionMatrix
         };
 
         cc.game.run(option, onStart);

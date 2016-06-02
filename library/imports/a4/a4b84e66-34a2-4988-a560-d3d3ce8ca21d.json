@@ -124,7 +124,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 797.75,
+      "width": 764.36,
       "height": 1040
     },
     "_children": [],
@@ -174,7 +174,7 @@
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
-    "_N$string": "Your woke up in middle of nowhere\nwith a loaded gun in your hand\nYour surrounded by zombies, \nzombies came out of no where, \nzombies that might have \ntaken control of the town.\nYou don't remember anything \nbut that your a S.W.A.T. agent \nand it was your first day at work.\n\n\"First day to save the day, huh?\"\n\nTime to find out the what happened.",
+    "_N$string": "You woke up in middle of nowhere\nwith a loaded gun in your hand\nYou're surrounded by zombies, \nzombies came out of no where, \nzombies that might have \ntaken control of the town.\nYou don't remember anything \nbut that you‘re a S.W.A.T. agent \nand it was your first day at work.\n\n\"First day to save the day, huh?\"\n\nTime to find out what happened.",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$overflow": 0

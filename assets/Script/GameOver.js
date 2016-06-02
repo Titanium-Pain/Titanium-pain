@@ -58,7 +58,7 @@ cc.Class({
                 break;
         }
         
-        this.scoreDisplay.string="You Killed "+'\n'+window.Global.score.toString()+'\n'+"Zombies"+'\n'+'Under'+'\n'+diff+'\n'+'Diffculty';
+        this.scoreDisplay.string="You Killed "+'\n'+  (window.Global.score-1).toString()+'\n'+"Zombies"+'\n'+'Under'+'\n'+diff+'\n'+'Diffculty';
     }
 
     // called every frame, uncomment this function to activate update callback
