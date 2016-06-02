@@ -25,7 +25,7 @@ cc.Class({
     // },
 
     chooseMap1: function chooseMap1() {
-        cc.director.loadScene('Mainloop');
+        cc.director.loadScene('ChooseDiffculty');
     }
 });
 

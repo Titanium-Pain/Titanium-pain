@@ -7,6 +7,6 @@
   "mappings": "AAAA,MAAM,CAAC,MAAM,GAAC;AACV,aAAS,EAAC,CAAC;AACX,SAAK,EAAC,CAAC;CACV,CAAC",
   "file": "unknown",
   "sourcesContent": [
-    "window.Global={\n    diffculty:0,\n    score:0,\n};"
+    "window.Global={\r\n    diffculty:0,\r\n    score:0,\r\n};"
   ]
 }

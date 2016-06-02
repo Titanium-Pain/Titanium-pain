@@ -3,8 +3,8 @@
   "_name": "4",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 3,
-  "sample": 60,
+  "_duration": 6,
+  "sample": 30,
   "speed": 1,
   "wrapMode": 1,
   "curveData": {
@@ -17,7 +17,11 @@
               "value": 100
             },
             {
-              "frame": 3,
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 2.966666666666667,
               "value": 0
             }
           ]
@@ -27,12 +31,16 @@
         "props": {
           "opacity": [
             {
-              "frame": 0,
+              "frame": 0.9666666666666667,
               "value": 0
             },
             {
-              "frame": 3,
-              "value": 100
+              "frame": 2.966666666666667,
+              "value": 255
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 0
             }
           ]
         }
@@ -45,7 +53,25 @@
               "value": 0
             },
             {
+              "frame": 2.966666666666667,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "New Label": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
               "frame": 3,
+              "value": 0
+            },
+            {
+              "frame": 6,
               "value": 255
             }
           ]
@@ -53,5 +79,11 @@
       }
     }
   },
-  "events": []
+  "events": [
+    {
+      "frame": 2.966666666666667,
+      "func": "",
+      "params": []
+    }
+  ]
 }

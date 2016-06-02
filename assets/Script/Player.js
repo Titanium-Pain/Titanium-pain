@@ -28,6 +28,10 @@ cc.Class({
             default:null,
             url:cc.AudioClip,
         },
+        bgm:{
+            default:null,
+            url:cc.AudioClip,
+        }
     },
 
     // use this for initialization
@@ -47,6 +51,7 @@ cc.Class({
     
     playShootSound: function () {
         cc.audioEngine.playEffect(this.attacksound, false);
+        cc.audioEngine.setEffectsVolume(0.3);
     },
     
     setInputControl: function () {
@@ -102,6 +107,10 @@ cc.Class({
                         self.atkdown=false;
                         self.atkleft=false;
                         self.atkright=true;
+                        break;
+                    case cc.KEY.escape:
+                        cc.audioEngine.playMusic(this.bgm,true);
+                        cc.director.loadScene('Title');
                         break;
                 }
             },

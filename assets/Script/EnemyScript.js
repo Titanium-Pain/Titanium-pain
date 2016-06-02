@@ -11,7 +11,7 @@ cc.Class({
         //    readonly: false,    // optional, default is false
         // },
         // ...
-        DetectRadius:150,
+        DetectRadius:1200,
         petrolcooldown:1,
         speed:0,
         count:0,
@@ -117,7 +117,7 @@ cc.Class({
         }
         
         else if(this.getPlayerDistance()<this.DetectRadius){
-            //this.speed*=0.5;
+            this.speed*=0.5;
             this.moveTowardPlayer();
             this.detected=true;
         }

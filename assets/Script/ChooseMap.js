@@ -23,6 +23,6 @@ cc.Class({
     // },
     
     chooseMap1:function(){
-        cc.director.loadScene('Mainloop');
+        cc.director.loadScene('ChooseDiffculty');
     }
 });

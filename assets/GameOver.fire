@@ -383,10 +383,10 @@
     },
     "duration": 0.1,
     "pressedSprite": {
-      "__uuid__": "e9ec654c-97a2-4787-9325-e6a10375219a"
+      "__uuid__": "1ca1d063-4ea2-44f6-a4a3-23c1c6025667"
     },
     "hoverSprite": {
-      "__uuid__": "e9ec654c-97a2-4787-9325-e6a10375219a"
+      "__uuid__": "1ca1d063-4ea2-44f6-a4a3-23c1c6025667"
     },
     "clickEvents": [],
     "_N$interactable": true,
@@ -408,7 +408,7 @@
       "__uuid__": "1ca1d063-4ea2-44f6-a4a3-23c1c6025667"
     },
     "_N$disabledSprite": {
-      "__uuid__": "29158224-f8dd-4661-a796-1ffab537140e"
+      "__uuid__": "1ca1d063-4ea2-44f6-a4a3-23c1c6025667"
     },
     "_N$target": {
       "__id__": 8

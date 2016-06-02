@@ -3,7 +3,7 @@
   "_name": "2",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 2.5,
+  "_duration": 4.016666666666667,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -17,14 +17,37 @@
         {
           "frame": 1,
           "value": 255
+        },
+        {
+          "frame": 2.4833333333333334,
+          "value": 255
+        },
+        {
+          "frame": 3.9833333333333334,
+          "value": 0
         }
       ]
     }
   },
   "events": [
     {
-      "frame": 2.5,
+      "frame": 0.9833333333333333,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 3.933333333333333,
       "func": "onOp2Finished",
+      "params": []
+    },
+    {
+      "frame": 3.95,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 2.4833333333333334,
+      "func": "",
       "params": []
     }
   ]

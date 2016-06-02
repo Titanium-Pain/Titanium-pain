@@ -3,8 +3,8 @@
   "_name": "5",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 12.483333333333333,
-  "sample": 60,
+  "_duration": 22.696969696969695,
+  "sample": 33,
   "speed": 1,
   "wrapMode": 1,
   "curveData": {
@@ -15,7 +15,7 @@
           "value": -1000
         },
         {
-          "frame": 12,
+          "frame": 21.818181818181817,
           "value": 850
         }
       ]
@@ -23,7 +23,7 @@
   },
   "events": [
     {
-      "frame": 12.483333333333333,
+      "frame": 22.696969696969695,
       "func": "onStoryFinished",
       "params": []
     }
